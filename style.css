@@ -23,6 +23,10 @@ body {
   margin-right: 13%;
   box-shadow: 0 0 10px #8b6a60;
 }
+button {
+  border: none;
+  border-radius: 5px;
+}
 
 /* ============================================== Candle
 */
