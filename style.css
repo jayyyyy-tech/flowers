@@ -15,17 +15,27 @@ body {
   position: relative;
   margin: -10em auto 0 auto;
 }
-.glow {
-  border: 2px solid palevioletred;
-  border: hidden;
-  border-radius: 800px 800px;
-  margin-left: 13%;
-  margin-right: 13%;
-  box-shadow: 0 0 10px #8b6a60;
-}
 button {
+  margin-top: 1rem;
   border: none;
   border-radius: 5px;
+  background-color: #70e000;
+  padding: 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: #006400;
+}
+.text .name {
+  font-weight: bold;
+  color: #006400;
+}
+.music {
+  display: flex;
+  align-items: center;
+}
+.note {
+  font-family: italic;
+  font-size: 12px;
 }
 
 /* ============================================== Candle
@@ -114,7 +124,7 @@ button {
 }
 
 .text {
-  color: #8b6a60;
+  color: #006400;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: italic;
